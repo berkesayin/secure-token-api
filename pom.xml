@@ -86,6 +86,12 @@
 			<scope>runtime</scope>
 		</dependency>
 		<!-- JWT dependencies end  -->
+		<!-- Replace dotenv-spring-boot with spring-dotenv -->
+		<dependency>
+			<groupId>me.paulschwarz</groupId>
+			<artifactId>spring-dotenv</artifactId>
+			<version>3.0.0</version>
+		</dependency>
 	</dependencies>
 
 	<build>
