@@ -18,4 +18,4 @@ spring:
 token:
   app:
     jwtSecret: ${JWT_SECRET}
-    jwtExpirationMs: 86400000
+    jwtExpirationMs: 86400000 # 24 hours valid
